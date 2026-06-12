@@ -1,0 +1,9 @@
+.home-container {
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+}

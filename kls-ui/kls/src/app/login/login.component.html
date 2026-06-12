@@ -1,0 +1,30 @@
+<div class="login-page">
+    <div class="login-container">
+        <div class="login-header">
+            <h2>Login</h2>
+            <p>Access your KLS workspace</p>
+        </div>
+
+        <div class="form-field">
+            <label for="userId">User ID</label>
+            <input
+                id="userId"
+                type="text"
+                placeholder="Enter user ID"
+                [(ngModel)]="userId">
+        </div>
+
+        <div class="form-field">
+            <label for="password">Password</label>
+            <input
+                id="password"
+                type="password"
+                placeholder="Enter password"
+                [(ngModel)]="password">
+        </div>
+
+        <button class="login-button" (click)="onLogin()">
+            Login
+        </button>
+    </div>
+</div>
