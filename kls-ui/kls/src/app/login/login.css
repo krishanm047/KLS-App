@@ -94,3 +94,10 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.company-logo {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
